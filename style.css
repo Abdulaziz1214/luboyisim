@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 1200px;
+    height: 600px;
+    border: 2px solid red;
+    margin: 0 auto;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.text1{
+    font-family: "Playwrite HU", serif;
+    color: red;
+    text-align: center;
+    font-size: 42px;
+    margin-top: 50px;
+    text-shadow: 5px -3px 15px blue;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 50px auto;
+    box-shadow: 5px -10px 15px 2px red;
+}
+.text1:hover::after{
+    content: 'Eshak miya';
+    font-size: 18px;
+    color: green;
+}
